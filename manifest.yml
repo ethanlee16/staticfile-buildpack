@@ -18,8 +18,8 @@ url_to_dependency_map: []
 dependencies:
 - name: nginx
   version: 1.10.3
-  uri: https://ethanl.ee/static/nginx.zip
-  md5: 2bce19614b16374c02b625980a2a19f8
+  uri: https://ethanl.ee/static/nginx-openssl.zip
+  md5: 60f417d0a71275a3d2b89662aad0ff51
   cf_stacks:
   - cflinuxfs2
 pre_package: scripts/build.sh
